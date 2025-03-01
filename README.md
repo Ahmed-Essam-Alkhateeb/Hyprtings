@@ -12,7 +12,9 @@ To build the project, you must have [rust](https://www.rust-lang.org/) and [node
 
 After that, clone the repo wherever you would want it and just execute `npm run tauri dev`. 
 
-Be warned that rust takes a long time to compile, so just go ahead and do something else while it is doing its job, you will probably run out of things to do before it is done. This is a one time thing so next compilations will not take as much time (probably like 15 seconds to 30 seconds). It might not even take much if the changes are done only on the JS part of things, just that if there are changes to rust, it will recompile (sped up of course)
+Be warned that rust takes a long time to compile, so just go ahead and do something else while it is doing its job, you will probably run out of things to do before it is done. This is a one time thing so next compilations will not take as much time (probably like 15 seconds to 30 seconds). It might not even take much if the changes are done only on the JS part of things, just that if there are changes to rust, it will recompile (sped up of course).
+
+It is also wise to install hyprland before. It does only work on linux and so if you use this app on other than linux or without hyprland installed, then it just won't work.
 
 ## Contribution
 
